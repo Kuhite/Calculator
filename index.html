@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+
+      <title>Calculator</title>
+
+      <link rel='stylesheet' href='index.css'>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.1/math.js" integrity="sha512-AfRcJIj922x/jSJpQLnry0DYIBg6EGCtwk/MiQ6QvDlzb7kNFxH8EdqXLkaXXY3YHQS9FrSb8H7LzuLn0CZQ1A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </head>
+
+    <body>
+      <div class="display-area">
+        <input id='display' onkeydown="result(display,event)"></input>
+      </div>
+      
+      
+
+      <div class='cal-button'>
+        <button onclick = "number(display, 1)">1</button>
+        <button onclick = "number(display, 2)">2</button>
+        <button onclick = "number(display, 3)">3</button>
+        <button onclick = "number(display, '+')">+</button><br>
+        <button onclick = "number(display, 4)">4</button>
+        <button onclick = "number(display, 5)">5</button>
+        <button onclick = "number(display, 6)">6</button>
+        <button onclick = "number(display, '-')">-</button><br>
+        <button onclick = "number(display, 7)">7</button>
+        <button onclick = "number(display, 8)">8</button>
+        <button onclick = "number(display, 9)">9</button>
+        <button onclick = "number(display, '*')" id='multiply'>*</button><br>
+        <button onclick = "number(display, 0)">0</button>
+        <button onclick = "number(display, '/')">/</button><br>
+        <button onclick = "calculate(display)">=</button>
+        <button onclick = "clean(display)">clr</button>
+        <button onclick = "backspace(display)"><<</button>
+        
+      </div>
+    </body>
+
+    <script src = './index.js'>
+
+    </script>
+
+</html>
