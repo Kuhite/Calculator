@@ -21,18 +21,19 @@
 
       
 
-      result = (id,event) => {
-       var y = event.which || event.keycode;
+      result = async(id,event) => {
+       var y = await event.which || event.keycode;
        if(y == 13){
          
          calculate(id);
        }
        if(y == 187 && event.key === '='){
          
-          calculate(id);
-          var v = id.value;
-          
+          await calculate(id);
+          await event.preventDefault();
+           
        }
+
       };
       
    
