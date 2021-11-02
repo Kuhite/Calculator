@@ -10,33 +10,33 @@
     </head>
 
     <body>
-      <div class="display-area">
-        <input id='display' onkeydown="result(display,event)"></input>
-      </div>
-      
-      
-
-      <div class='cal-button'>
-        <button onclick = "number(display, 1)">1</button>
-        <button onclick = "number(display, 2)">2</button>
-        <button onclick = "number(display, 3)">3</button>
-        <button onclick = "number(display, '+')">+</button><br>
-        <button onclick = "number(display, 4)">4</button>
-        <button onclick = "number(display, 5)">5</button>
-        <button onclick = "number(display, 6)">6</button>
-        <button onclick = "number(display, '-')">-</button><br>
-        <button onclick = "number(display, 7)">7</button>
-        <button onclick = "number(display, 8)">8</button>
-        <button onclick = "number(display, 9)">9</button>
-        <button onclick = "number(display, '*')" id='multiply'>*</button><br>
-        <button onclick = "number(display, 0)">0</button>
-        <button onclick = "number(display, '/')">/</button><br>
-        <button onclick = "calculate(display)">=</button>
-        <button onclick = "clean(display)" style="text-align: center;" class='clear'>clr</button>
-        <button onclick = "backspace(display)"><<</button>
-        
-      </div>
+      <div class = "device">
+        <div class='input'>
+          <input id='display' onkeydown="result(display,event)"/>
+          <hr>
+        </div>
+        <div class='cal-button'>
+          <button onclick = "number(display, 1)">1</button>
+          <button onclick = "number(display, 2)">2</button>
+          <button onclick = "number(display, 3)">3</button>
+          <button onclick = "number(display, '+')">+</button><br>
+          <button onclick = "number(display, 4)">4</button>
+          <button onclick = "number(display, 5)">5</button>
+          <button onclick = "number(display, 6)">6</button>
+          <button onclick = "number(display, '-')">-</button><br>
+          <button onclick = "number(display, 7)">7</button>
+          <button onclick = "number(display, 8)">8</button>
+          <button onclick = "number(display, 9)">9</button>
+          <button onclick = "number(display, '*')" id='multiply'>*</button><br>
+          <button onclick = "number(display, 0)">0</button>
+          <button onclick = "number(display, '/')">/</button><br>
+          <button onclick = "calculate(display)">=</button>
+          <button onclick = "clean(display)" style="text-align: center;" class='clear'>clr</button>
+          <button onclick = "backspace(display)"><<</button>
+        </div>
     </body>
+
+  </div>
 
     <script src = './index.js'>
 
