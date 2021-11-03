@@ -4,7 +4,7 @@ body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-@media  screen and (min-device-width:270px) and (max-device-width: 475px) {
+@media  screen and (min-device-width:270px) and (max-device-width: 500px) {
     .device{
         margin-top: 25vh;
         height:1200px;
@@ -60,11 +60,186 @@ body{
     }
 }
 
-@media  screen and (min-device-width:480px) and (max-device-width: 1000px) {
+@media  screen and (min-device-width:501px) and (max-device-width: 1000px) {
+    .device{
+        margin-top: 8vh;
+        height:1100px;
+        width:850px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .input{
+        margin-top: -15px;
+        margin-bottom:40px;
+        width:600px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .cal-button{
+        background-color:transparent;
+        align-items: center;
+        width:850px;
+        margin: 100px auto;
+        text-align: center;
+        border-radius: 40px;
+
+    }
+    hr{
+        width:600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #display{
+        margin-left: auto;
+        margin-right:auto;
+        height: 100px;
+        font-size: 100px;
+        width:600px;
+        text-align: right;
+        background-color: transparent;
+        color:white;
+        border:2px solid black;
+        text-align: center;
+    }
+    
+    button{
+        height:170px;
+        width:170px;
+        font-size: 95px;
+        margin: 10px;
+        background:linear-gradient(rgb(255, 255, 255), rgb(196, 196, 196));
+        border-radius: 50px;
+        border: 2px outset rgb(41, 41, 88);
+        color:rgb(129, 3, 3);
+        font-weight: bold;
+    }
+}
+
+@media  screen and (min-device-width:1001px) and (max-device-width: 1200px) {
+    .device{
+        margin-top: 8vh;
+        height:1000px;
+        width:750px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .input{
+        margin-top: -15px;
+        margin-bottom:40px;
+        width:500px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .cal-button{
+        background-color:transparent;
+        align-items: center;
+        width:750px;
+        margin: 100px auto;
+        text-align: center;
+        border-radius: 40px;
+
+    }
+    hr{
+        width:500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #display{
+        margin-left: auto;
+        margin-right:auto;
+        height: 100px;
+        font-size: 100px;
+        width:500px;
+        text-align: right;
+        background-color: transparent;
+        color:white;
+        border:2px solid black;
+        text-align: center;
+    }
+    
+    button{
+        height:150px;
+        width:150px;
+        font-size: 95px;
+        margin: 10px;
+        background:linear-gradient(rgb(255, 255, 255), rgb(196, 196, 196));
+        border-radius: 50px;
+        border: 2px outset rgb(41, 41, 88);
+        color:rgb(129, 3, 3);
+        font-weight: bold;
+    }
+
+    .clear{
+        font-size: 540%;
+    }
     
 }
 
-@media  screen and (min-device-width:1020) {
+@media  screen and (min-device-width:1201px){
+    .device{
+        margin-top: 5vh;
+        height:700px;
+        width:550px;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .input{
+        margin-top: -15px;
+        width:400px;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+    }
+    .cal-button{
+        background-color:transparent;
+        align-items: center;
+        width:550px;
+        margin: 40px auto;
+        text-align: center;
+        border-radius: 40px;
+
+    }
+    hr{
+        width:400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #display{
+        margin-left: auto;
+        margin-right:auto;
+        position: relative;
+        top:25px;
+        height: 100px;
+        font-size: 55px;
+        width:400px;
+        text-align: right;
+        background-color: transparent;
+        color:white;
+        border:2px solid black;
+        text-align: center;
+    }
+    
+    button{
+        height:90px;
+        width:90px;
+        font-size: 50px;
+        margin: 4px;
+        background:linear-gradient(rgb(255, 255, 255), rgb(196, 196, 196));
+        border-radius: 30px;
+        border: 2px outset rgb(41, 41, 88);
+        color:rgb(129, 3, 3);
+        font-weight: bold;
+    }
+
+    .clear{
+        font-size: 300%;
+    }
     
 }
+
 
